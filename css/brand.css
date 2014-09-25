@@ -1,0 +1,52 @@
+body {
+	background-color: #87CEEB;
+	
+}
+
+#social-bar {
+	margin-top: 15px;
+	margin-right: 27px;
+
+}
+
+
+
+.circle {
+	width:32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	float: right;
+	margin-right: 10px;
+	
+	
+}
+
+.ic {
+	margin-top: 6px;
+	margin-left: 7px;
+	color: #fff;
+}
+
+.logo {
+	margin:0 auto;
+	display: block;
+}
+
+#logodiv {
+	margin-top: 230px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
